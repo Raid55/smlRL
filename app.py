@@ -10,12 +10,13 @@ app = Flask(__name__)
 
 
 @app.route('/', strict_slashes=False, methods=['GET'])
+@app.route('/<url_id>', strict_slashes=False)
 def home():
     return render_template('base.html')
 
-# @app.route('/<url_id>', strict_slashes=False)
-# def get_url():
-#     return render_template()
+@app.route('/<url_id>', strict_slashes=False)
+def get_url():
+    return render_template()
 
 @app.route('/generate_url', strict_slashes=False, methods=['POST'])
 def generate_url():
