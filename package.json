@@ -1,0 +1,30 @@
+{
+  "name": "smlrl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raid55/smlRL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raid55/smlRL/issues"
+  },
+  "homepage": "https://github.com/Raid55/smlRL#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "pug": "^2.0.3",
+    "sequelize": "^4.37.6",
+    "serve-favicon": "^2.5.0",
+    "sqlite3": "^4.0.0",
+    "uuid": "^3.2.1"
+  }
+}
